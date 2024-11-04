@@ -1,1 +1,10 @@
-
+#overloading
+class ol():
+    def add(self,v1,v2):
+        print(v1+v2)
+    def add(self,v1,v2,v3):
+        print(v1+v2+v3)
+    def add(self,v1,v2,v3,v4):
+        print(v1+v2+v3+v4)
+obj = ol()
+obj.add(2,3,4,5)
