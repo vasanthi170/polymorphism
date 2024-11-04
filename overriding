@@ -1,1 +1,9 @@
-
+#overriding
+class A():
+    def add(self):
+        print('hiii')
+class B(A):
+    def add(self):
+        print('Hello')
+obj = B()
+obj.add()
